@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 def main():
-    file_list = os.scandir('not_hammerons')
+    file_list = os.scandir('hammerons')
     print(file_list)
     for i, filename in enumerate(file_list):
         plt.rcParams['figure.figsize'] = [3.0, 3.0]
@@ -12,7 +12,7 @@ def main():
         aud = aud[:,0]
         plt.specgram(aud, Fs=Fs)
         plt.axis(False)
-        plt.savefig(f'false-first-iter/false-classical-{i}.png')
+        plt.savefig(f'images/true/true-classical-{i}.png')
 
 if __name__ == "__main__":
     main()
