@@ -2,3 +2,7 @@ not_hammerons.aup
 hammerons.aup
 /hammerons_data
 /not_hammerons_data
+not_hammerons_compressed.aup
+hammerons_compressed.aup
+/not_hammerons_compressed_data
+/hammerons_compressed_data
